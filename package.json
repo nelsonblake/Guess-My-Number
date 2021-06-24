@@ -1,0 +1,15 @@
+{
+  "name": "guessmynumber",
+  "version": "1.0.0",
+  "description": "How to run\r 1. Clone or download the repo\r 2. Open project folder in vscode\r 3. Start your live-server. you can use a live-server extension or you can type 'live-server' in the terminal if you have node.js installed. Either way Start your live-server. **If you do not have live-server functionality, you can open index.html in chrome.",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Blake Nelson",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.3.1"
+  }
+}
